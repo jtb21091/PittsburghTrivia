@@ -1,105 +1,154 @@
+// DOM Elements (assuming you have these in your HTML)
+const questionContainer = document.getElementById('question-container');
+const scoreEl = document.getElementById('score');
+const timerEl = document.getElementById('timer');
+const nextButton = document.getElementById('next-button');
+const restartButton = document.getElementById('restart-button');
+const highScoreEl = document.getElementById('high-score'); // An element to display high score
+
+// Game Variables
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let timeLeft = 10;
-let timer;
+let timerId = null;
 
-// Fetch the questions from JSON file hosted on GitHub Pages
-fetch('https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/questions_converted.json')
-    .then(response => response.json())
-    .then(data => {
-        questions = shuffleArray(data);
-        startGame();
-    })
-    .catch(error => console.error('Error loading questions:', error));
+// On page load
+document.addEventListener('DOMContentLoaded', () => {
+  loadQuestions();
+  restartButton.addEventListener('click', startGame);
 
-// Utility function to shuffle questions
-function shuffleArray(array) {
-    return array.sort(() => Math.random() - 0.5);
-}
+  // Display any previously saved high score
+  const savedHighScore = localStorage.getItem('highScore') || 0;
+  highScoreEl.textContent = `High Score: ${savedHighScore}`;
+});
 
-// Start the game
-function startGame() {
-    currentQuestionIndex = 0;
-    score = 0;
-    document.getElementById('score').textContent = `Score: ${score}`;
-    document.getElementById('next-button').style.display = "none";
-    showQuestion();
-}
-
-// Show the current question
-function showQuestion() {
-    if (currentQuestionIndex >= questions.length) {
-        endGame();
-        return;
-    }
-
-    clearInterval(timer);
-    timeLeft = 10;
-    document.getElementById('timer').textContent = `Time Left: ${timeLeft}s`;
-
-    const questionObj = questions[currentQuestionIndex];
-    const questionContainer = document.getElementById('question-container');
-    questionContainer.innerHTML = `<h2>${questionObj.Question}</h2>`;
-
-    const choicesDiv = document.createElement('div');
-    [questionObj["Choice 1"], questionObj["Choice 2"], questionObj["Choice 3"]].forEach(choice => {
-        const button = document.createElement('button');
-        button.textContent = choice;
-        button.classList.add('choice');
-        button.onclick = () => checkAnswer(choice, questionObj.Answer);
-        choicesDiv.appendChild(button);
-    });
-
-    questionContainer.appendChild(choicesDiv);
+async function loadQuestions() {
+  try {
+    // Use a RAW GitHub link or any public URL that returns JSON
+    const response = await fetch('https://raw.githubusercontent.com/jtb21091/PittsburghTrivia/main/questions_converted.json');
+    if (!response.ok) throw new Error('Network response was not OK');
     
-    // Start timer countdown
-    timer = setInterval(() => {
-        timeLeft--;
-        document.getElementById('timer').textContent = `Time Left: ${timeLeft}s`;
-        if (timeLeft <= 0) {
-            clearInterval(timer);
-            nextQuestion();
-        }
-    }, 1000);
+    const data = await response.json();
+    questions = shuffleArray(data);
+    startGame();
+  } catch (error) {
+    console.error('Error loading questions:', error);
+    // Could display an error message to the user
+  }
 }
 
-// Check if the selected answer is correct
+function startGame() {
+  currentQuestionIndex = 0;
+  score = 0;
+  updateScore();
+  nextButton.style.display = 'none';
+  showQuestion();
+}
+
+function showQuestion() {
+  if (currentQuestionIndex >= questions.length) {
+    endGame();
+    return;
+  }
+
+  clearInterval(timerId);
+  timeLeft = 10;
+  updateTimer();
+
+  const questionObj = questions[currentQuestionIndex];
+  questionContainer.innerHTML = `<h2>${questionObj.Question}</h2>`;
+
+  const choices = [
+    questionObj['Choice 1'],
+    questionObj['Choice 2'],
+    questionObj['Choice 3']
+  ].filter(Boolean); // Just in case a choice is missing
+  const shuffledChoices = shuffleArray(choices);
+
+  const choicesDiv = document.createElement('div');
+  shuffledChoices.forEach(choiceText => {
+    const button = document.createElement('button');
+    button.textContent = choiceText;
+    button.classList.add('choice');
+    button.addEventListener('click', () => checkAnswer(choiceText, questionObj.Answer));
+    choicesDiv.appendChild(button);
+  });
+
+  questionContainer.appendChild(choicesDiv);
+
+  timerId = setInterval(() => {
+    timeLeft--;
+    updateTimer();
+    if (timeLeft <= 0) {
+      clearInterval(timerId);
+      nextQuestion();
+    }
+  }, 1000);
+}
+
 function checkAnswer(selected, correct) {
-    clearInterval(timer);
+  clearInterval(timerId);
 
-    document.querySelectorAll('.choice').forEach(button => {
-        button.disabled = true;
-        if (button.textContent === correct) {
-            button.classList.add('correct');
-        } else {
-            button.classList.add('incorrect');
-        }
-    });
-
-    if (selected === correct) {
-        score++;
-        document.getElementById('score').textContent = `Score: ${score}`;
-    }
-
-    setTimeout(nextQuestion, 2000);
-}
-
-// Move to the next question
-function nextQuestion() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion();
+  document.querySelectorAll('.choice').forEach(button => {
+    button.disabled = true;
+    if (button.textContent === correct) {
+      button.classList.add('correct');
     } else {
-        endGame();
+      button.classList.add('incorrect');
     }
+  });
+
+  if (selected === correct) {
+    score++;
+    updateScore();
+  }
+
+  setTimeout(nextQuestion, 2000);
 }
 
-// End the game and display the final score
+function nextQuestion() {
+  currentQuestionIndex++;
+  if (currentQuestionIndex < questions.length) {
+    showQuestion();
+  } else {
+    endGame();
+  }
+}
+
+// END GAME
 function endGame() {
-    document.getElementById('question-container').innerHTML = `<h2>Game Over!</h2><p>Your final score: ${score}</p>`;
-    document.getElementById('next-button').style.display = "none";
+  clearInterval(timerId);
+  questionContainer.innerHTML = `
+    <h2>Game Over!</h2>
+    <p>Your final score: ${score}</p>
+  `;
+
+  // Check if we have a new high score
+  const savedHighScore = Number(localStorage.getItem('highScore')) || 0;
+  if (score > savedHighScore) {
+    // We have a new high score - update localStorage
+    localStorage.setItem('highScore', score);
+  }
+
+  // Display updated high score
+  const updatedHighScore = localStorage.getItem('highScore');
+  highScoreEl.textContent = `High Score: ${updatedHighScore}`;
+
+  nextButton.style.display = 'none';
 }
 
-// Restart the game
-document.getElementById('restart-button').addEventListener('click', startGame);
+// Update score
+function updateScore() {
+  scoreEl.textContent = `Score: ${score}`;
+}
+
+// Update timer
+function updateTimer() {
+  timerEl.textContent = `Time Left: ${timeLeft}s`;
+}
+
+// Shuffle helper
+function shuffleArray(array) {
+  return array.sort(() => Math.random() - 0.5);
+}

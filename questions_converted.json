@@ -355,5 +355,40 @@
         "Choice 1": "Cheese Danish",
         "Choice 2": "Steel Cheese",
         "Choice 3": "Pierogi"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's main public library?",
+        "Answer": "Carnegie Library",
+        "Choice 1": "Pittsburgh Public Library",
+        "Choice 2": "Steel City Library",
+        "Choice 3": "Carnegie Library"
+    },
+    {
+        "Question": "Which Pittsburgh neighborhood is known for its art scene?",
+        "Answer": "Lawrenceville",
+        "Choice 1": "South Side",
+        "Choice 2": "Downtown",
+        "Choice 3": "Lawrenceville"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's famous sandwich shop?",
+        "Answer": "Primanti Bros",
+        "Choice 1": "Subway",
+        "Choice 2": "Five Guys",
+        "Choice 3": "Primanti Bros"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's main airport?",
+        "Answer": "Pittsburgh International Airport",
+        "Choice 1": "John F. Kennedy International Airport",
+        "Choice 2": "O'Hare International Airport",
+        "Choice 3": "Pittsburgh International Airport"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's famous steel company?",
+        "Answer": "US Steel",
+        "Choice 1": "Bethlehem Steel",
+        "Choice 2": "Nucor Steel",
+        // No third choice provided
     }
 ]
