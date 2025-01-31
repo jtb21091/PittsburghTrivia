@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function loadQuestions() {
   try {
     // Use a RAW GitHub link or any public URL that returns JSON
-    const response = await fetch('https://raw.githubusercontent.com/jtb21091/PittsburghTrivia/main/questions_converted.json');
+    const response = await fetch('fetch('https://jtb21091.github.io/PittsburghTrivia/questions_converted.json');  
     if (!response.ok) throw new Error('Network response was not OK');
     
     const data = await response.json();
