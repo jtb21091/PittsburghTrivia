@@ -460,5 +460,26 @@
         "Choice 1": "Frick Park",
         "Choice 2": "Schenley Park",
         "Choice 3": "Southside Park"
+    },
+     {
+        "Question": "Which historic battle took place near Pittsburgh in 1754?",
+        "Answer": "Battle of Fort Necessity",
+        "Choice 1": "Battle of Fort Knox",
+        "Choice 2": "Battle of Fort Necessity",
+        "Choice 3": "Battle of Fort Pitt"
+    },
+    {
+        "Question": "What is Pittsburgh Central Catholic high school's nickname?",
+        "Answer": "Vikings",
+        "Choice 1": "Vikings",
+        "Choice 2": "Titans",
+        "Choice 3": "Commanders"
+    },
+    {
+        "Question": "What is Shaler Area high school's nickname?",
+        "Answer": "Titans",
+        "Choice 1": "Vikings",
+        "Choice 2": "Titans",
+        "Choice 3": "Commanders"
     }
 ]
