@@ -389,6 +389,6 @@
         "Answer": "US Steel",
         "Choice 1": "Bethlehem Steel",
         "Choice 2": "Nucor Steel",
-        // No third choice provided
+        "Choice 3": "US Steel"
     }
 ]
