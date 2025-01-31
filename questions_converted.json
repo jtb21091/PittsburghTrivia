@@ -432,5 +432,33 @@
         "Choice 1": "Pirates",
         "Choice 2": "Pipers",
         "Choice 3": "Penguins"
+    },
+     {
+        "Question": "What state is Pittsburgh in?",
+        "Answer": "Pennsylvania",
+        "Choice 1": "Pennsylvania",
+        "Choice 2": "Ohio",
+        "Choice 3": "Indiana"
+    },
+      {
+        "Question": "Which famous children’s television host called Pittsburgh home?",
+        "Answer": "Fred Rogers",
+        "Choice 1": "Fred Rogers",
+        "Choice 2": "Jimmy Stewart",
+        "Choice 3": "Steve Burns"
+    },
+    {
+        "Question": "Which university, founded in 1787, is located in Pittsburgh?",
+        "Answer": "University of Pittsburgh",
+        "Choice 1": "Duquesne",
+        "Choice 2": "CMU",
+        "Choice 3": "University of Pittsburgh"
+    },
+      {
+        "Question": "Which Pittsburgh park is home to the Phipps Conservatory and Botanical Gardens?",
+        "Answer": "Schenley Park",
+        "Choice 1": "Frick Park",
+        "Choice 2": "Schenley Park",
+        "Choice 3": "Southside Park"
     }
 ]
