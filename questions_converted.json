@@ -411,5 +411,26 @@
         "Choice 1": "Ty Cobb",
         "Choice 2": "Stan Musial",
         "Choice 3": "Babe Ruth"
+    },
+     {
+        "Question": "What year did the Pitt Panther football team win the Rose Bowl?",
+        "Answer": "1937",
+        "Choice 1": "2007",
+        "Choice 2": "1957",
+        "Choice 3": "1937"
+    },
+     {
+        "Question": "What is the oldest bridge in downtown Pittsburgh, built in the 1880s?",
+        "Answer": "Smithfield Street Bridge",
+        "Choice 1": "Rachel Carson Bridge",
+        "Choice 2": "Smithfield Street Bridge",
+        "Choice 3": "6th Street Bridge"
+    },
+     {
+        "Question": "What was the original name of the Pittsburgh Steelers?",
+        "Answer": "Pirates",
+        "Choice 1": "Pirates",
+        "Choice 2": "Pipers",
+        "Choice 3": "Penguins"
     }
 ]
