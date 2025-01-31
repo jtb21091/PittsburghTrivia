@@ -1,0 +1,359 @@
+[
+    {
+        "Question": "Which river isn't in Pittsburgh?",
+        "Answer": "Kentucky",
+        "Choice 1": "Allegheny",
+        "Choice 2": "Monongahela",
+        "Choice 3": "Ohio"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's NFL team?",
+        "Answer": "Steelers",
+        "Choice 1": "Pirates",
+        "Choice 2": "Penguins",
+        "Choice 3": "Steelers"
+    },
+    {
+        "Question": "Which river does not flow through Pittsburgh?",
+        "Answer": "Kentucky",
+        "Choice 1": "Ohio",
+        "Choice 2": "Allegheny",
+        "Choice 3": "Kentucky"
+    },
+    {
+        "Question": "What is Pittsburgh famously known as?",
+        "Answer": "Steel City",
+        "Choice 1": "Windy City",
+        "Choice 2": "Music City",
+        "Choice 3": "Steel City"
+    },
+    {
+        "Question": "What sandwich shop is iconic in Pittsburgh?",
+        "Answer": "Primanti Bros",
+        "Choice 1": "Subway",
+        "Choice 2": "Five Guys",
+        "Choice 3": "Primanti Bros"
+    },
+    {
+        "Question": "Which bridge in Pittsburgh is painted yellow?",
+        "Answer": "Smithfield Bridge",
+        "Choice 1": "Rachel Carson Bridge",
+        "Choice 2": "Fort Pitt Bridge",
+        "Choice 3": "Rachel Carson Bridge"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's NHL team?",
+        "Answer": "Penguins",
+        "Choice 1": "Steelers",
+        "Choice 2": "Pirates",
+        "Choice 3": "Penguins"
+    },
+    {
+        "Question": "Which university in Pittsburgh has a cathedral-like building?",
+        "Answer": "University of Pittsburgh",
+        "Choice 1": "Duquesne University",
+        "Choice 2": "Carnegie Mellon",
+        "Choice 3": "University of Pittsburgh"
+    },
+    {
+        "Question": "What is the tallest building in Pittsburgh?",
+        "Answer": "US Steel Tower",
+        "Choice 1": "One Oxford Centre",
+        "Choice 2": "BNY Mellon Center",
+        "Choice 3": "US Steel Tower"
+    },
+    {
+        "Question": "What food item is Pittsburgh known for adding to salads?",
+        "Answer": "Fries",
+        "Choice 1": "Croutons",
+        "Choice 2": "Bacon",
+        "Choice 3": "Fries"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's baseball stadium?",
+        "Answer": "PNC Park",
+        "Choice 1": "Heinz Field",
+        "Choice 2": "Consol Energy Center",
+        "Choice 3": "PNC Park"
+    },
+    {
+        "Question": "What was Pittsburgh's primary industry in the 20th century?",
+        "Answer": "Steel",
+        "Choice 1": "Coal",
+        "Choice 2": "Glass",
+        "Choice 3": "Steel"
+    },
+    {
+        "Question": "Which park offers a view of the Pittsburgh skyline?",
+        "Answer": "Mount Washington",
+        "Choice 1": "Point State Park",
+        "Choice 2": "Frick Park",
+        "Choice 3": "Mount Washington"
+    },
+    {
+        "Question": "Which neighborhood is known for its cultural diversity?",
+        "Answer": "Squirrel Hill",
+        "Choice 1": "Shadyside",
+        "Choice 2": "Bloomfield",
+        "Choice 3": "Squirrel Hill"
+    },
+    {
+        "Question": "What is the name of the Pittsburgh zoo?",
+        "Answer": "Pittsburgh Zoo & Aquarium",
+        "Choice 1": "Philadelphia Zoo",
+        "Choice 2": "Columbus Zoo",
+        "Choice 3": "Pittsburgh Zoo & Aquarium"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's international airport?",
+        "Answer": "Pittsburgh International",
+        "Choice 1": "John F. Kennedy",
+        "Choice 2": "O'Hare",
+        "Choice 3": "Pittsburgh International"
+    },
+    {
+        "Question": "What is Pittsburgh's nickname related to bridges?",
+        "Answer": "City of Bridges",
+        "Choice 1": "Bridge City",
+        "Choice 2": "Golden City",
+        "Choice 3": "City of Bridges"
+    },
+    {
+        "Question": "Which amusement park is located near Pittsburgh?",
+        "Answer": "Kennywood",
+        "Choice 1": "Disneyland",
+        "Choice 2": "Cedar Point",
+        "Choice 3": "Kennywood"
+    },
+    {
+        "Question": "What is the name of the river confluence in Pittsburgh?",
+        "Answer": "Three Rivers",
+        "Choice 1": "Golden Triangle",
+        "Choice 2": "Confluence",
+        "Choice 3": "Three Rivers"
+    },
+    {
+        "Question": "Which Pittsburgh artist is famous for pop art?",
+        "Answer": "Andy Warhol",
+        "Choice 1": "Picasso",
+        "Choice 2": "Van Gogh",
+        "Choice 3": "Andy Warhol"
+    },
+    {
+        "Question": "Which hill in Pittsburgh is known for its inclines?",
+        "Answer": "Mount Washington",
+        "Choice 1": "Schenley Hill",
+        "Choice 2": "Downtown Hill",
+        "Choice 3": "Mount Washington"
+    },
+    {
+        "Question": "What is Pittsburgh's main shopping district?",
+        "Answer": "Shadyside",
+        "Choice 1": "South Side",
+        "Choice 2": "Market Square",
+        "Choice 3": "Market Square"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's botanical garden?",
+        "Answer": "Phipps Conservatory",
+        "Choice 1": "Frick Park",
+        "Choice 2": "Botanic Gardens",
+        "Choice 3": "Phipps Conservatory"
+    },
+    {
+        "Question": "What type of pierogies are popular in Pittsburgh?",
+        "Answer": "Potato",
+        "Choice 1": "Cheese",
+        "Choice 2": "Sauerkraut",
+        "Choice 3": "Potato"
+    },
+    {
+        "Question": "What is the name of the river that connects to the Ohio River?",
+        "Answer": "Monongahela",
+        "Choice 1": "Allegheny",
+        "Choice 2": "Kentucky",
+        "Choice 3": "Monongahela"
+    },
+    {
+        "Question": "Which Pittsburgh neighborhood is known for its universities?",
+        "Answer": "Oakland",
+        "Choice 1": "South Side",
+        "Choice 2": "North Side",
+        "Choice 3": "Oakland"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's famous pierogi race mascot?",
+        "Answer": "Pierogio",
+        "Choice 1": "Pierogina",
+        "Choice 2": "Pierogi Pete",
+        "Choice 3": "Pierogi Pete"
+    },
+    {
+        "Question": "Which Pittsburgh brewery is historic and well-known?",
+        "Answer": "Iron City Brewery",
+        "Choice 1": "Yuengling",
+        "Choice 2": "Budweiser",
+        "Choice 3": "Iron City Brewery"
+    },
+    {
+        "Question": "Which Pittsburgh food chain is known for fries in sandwiches?",
+        "Answer": "Primanti Bros",
+        "Choice 1": "McDonald's",
+        "Choice 2": "Wendy's",
+        "Choice 3": "Primanti Bros"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's science museum?",
+        "Answer": "Carnegie Science Center",
+        "Choice 1": "Discovery Center",
+        "Choice 2": "Natural Museum",
+        "Choice 3": "Carnegie Science Center"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's yearly regatta event?",
+        "Answer": "Pittsburgh Regatta",
+        "Choice 1": "Riverfest",
+        "Choice 2": "Steel City Days",
+        "Choice 3": "Pittsburgh Regatta"
+    },
+    {
+        "Question": "Which Pittsburgh theater is known for Broadway shows?",
+        "Answer": "Benedum Center",
+        "Choice 1": "Heinz Hall",
+        "Choice 2": "O'Reilly Theater",
+        "Choice 3": "Benedum Center"
+    },
+    {
+        "Question": "What is Pittsburgh's iconic ketchup brand?",
+        "Answer": "Heinz",
+        "Choice 1": "French's",
+        "Choice 2": "Kraft",
+        "Choice 3": "Heinz"
+    },
+    {
+        "Question": "What Pittsburgh district is famous for its technology companies?",
+        "Answer": "Strip District",
+        "Choice 1": "Downtown",
+        "Choice 2": "Oakland",
+        "Choice 3": "Strip District"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's jazz music festival?",
+        "Answer": "JazzFest",
+        "Choice 1": "Pittsburgh Jazz Celebration",
+        "Choice 2": "Steel City Sounds",
+        "Choice 3": "JazzFest"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's famous steel tower?",
+        "Answer": "US Steel Tower",
+        "Choice 1": "Glass Tower",
+        "Choice 2": "One Oxford",
+        "Choice 3": "US Steel Tower"
+    },
+    {
+        "Question": "Which Pittsburgh museum showcases natural history?",
+        "Answer": "Carnegie Museum",
+        "Choice 1": "Phipps Museum",
+        "Choice 2": "Steel City Museum",
+        "Choice 3": "Carnegie Museum"
+    },
+    {
+        "Question": "What is the name of the Pittsburgh football team's mascot?",
+        "Answer": "Steely McBeam",
+        "Choice 1": "Steelhead",
+        "Choice 2": "Iron Man",
+        "Choice 3": "Steely McBeam"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's oldest neighborhood?",
+        "Answer": "Strip District",
+        "Choice 1": "Lawrenceville",
+        "Choice 2": "Downtown",
+        "Choice 3": "Strip District"
+    },
+    {
+        "Question": "Which riverfront park in Pittsburgh is known for biking?",
+        "Answer": "Point State Park",
+        "Choice 1": "Schenley Park",
+        "Choice 2": "Three Rivers Park",
+        "Choice 3": "Point State Park"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's main cultural district?",
+        "Answer": "Cultural District",
+        "Choice 1": "Downtown Area",
+        "Choice 2": "Strip Cultural Center",
+        "Choice 3": "Cultural District"
+    },
+    {
+        "Question": "What is Pittsburgh's famous Primanti Bros known for?",
+        "Answer": "Fries on Sandwiches",
+        "Choice 1": "Big Burgers",
+        "Choice 2": "Deep-Fried Sandwiches",
+        "Choice 3": "Fries on Sandwiches"
+    },
+    {
+        "Question": "What is the name of the Pittsburgh Steelers' stadium?",
+        "Answer": "Acrisure Stadium",
+        "Choice 1": "PNC Park",
+        "Choice 2": "Steel City Field",
+        "Choice 3": "Acrisure Stadium"
+    },
+    {
+        "Question": "Which Pittsburgh neighborhood is known for its nightlife?",
+        "Answer": "South Side",
+        "Choice 1": "North Shore",
+        "Choice 2": "Downtown",
+        "Choice 3": "South Side"
+    },
+    {
+        "Question": "What is the name of the Pittsburgh incline railway?",
+        "Answer": "Duquesne Incline",
+        "Choice 1": "Monongahela Incline",
+        "Choice 2": "Pittsburgh Lift",
+        "Choice 3": "Duquesne Incline"
+    },
+    {
+        "Question": "Which Pittsburgh museum celebrates Andy Warhol?",
+        "Answer": "Andy Warhol Museum",
+        "Choice 1": "Pop Art Museum",
+        "Choice 2": "Steel Art Museum",
+        "Choice 3": "Andy Warhol Museum"
+    },
+    {
+        "Question": "What is Pittsburgh's famous potato chip brand?",
+        "Answer": "Snyder's",
+        "Choice 1": "Lay's",
+        "Choice 2": "Herr's",
+        "Choice 3": "Snyder's"
+    },
+    {
+        "Question": "Which Pittsburgh district has historical iron furnaces?",
+        "Answer": "Carrie Furnace",
+        "Choice 1": "Iron Works District",
+        "Choice 2": "Steel Furnace Works",
+        "Choice 3": "Carrie Furnace"
+    },
+    {
+        "Question": "What is the name of Pittsburgh's pro soccer team?",
+        "Answer": "Riverhounds",
+        "Choice 1": "Steel FC",
+        "Choice 2": "Pittsburgh United",
+        "Choice 3": "Riverhounds"
+    },
+    {
+        "Question": "Which Pittsburgh arena hosts major concerts and events?",
+        "Answer": "PPG Paints Arena",
+        "Choice 1": "Steel City Arena",
+        "Choice 2": "Pittsburgh Concert Hall",
+        "Choice 3": "PPG Paints Arena"
+    },
+    {
+        "Question": "What is Pittsburgh's famous cheese-filled pastry called?",
+        "Answer": "Pierogi",
+        "Choice 1": "Cheese Danish",
+        "Choice 2": "Steel Cheese",
+        "Choice 3": "Pierogi"
+    }
+]
