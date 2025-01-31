@@ -4,7 +4,7 @@
         "Answer": "Kentucky",
         "Choice 1": "Allegheny",
         "Choice 2": "Monongahela",
-        "Choice 3": "Ohio"
+        "Choice 3": "Kentucky"
     },
     {
         "Question": "What is the name of Pittsburgh's NFL team?",
@@ -39,7 +39,7 @@
         "Answer": "Smithfield Bridge",
         "Choice 1": "Rachel Carson Bridge",
         "Choice 2": "Fort Pitt Bridge",
-        "Choice 3": "Rachel Carson Bridge"
+        "Choice 3": "Smithfield Bridge"
     },
     {
         "Question": "What is the name of Pittsburgh's NHL team?",
@@ -79,7 +79,7 @@
     {
         "Question": "What was Pittsburgh's primary industry in the 20th century?",
         "Answer": "Steel",
-        "Choice 1": "Coal",
+        "Choice 1": "Iron",
         "Choice 2": "Glass",
         "Choice 3": "Steel"
     },
@@ -336,7 +336,7 @@
         "Choice 3": "Carrie Furnace"
     },
     {
-        "Question": "What is the name of Pittsburgh's pro soccer team?",
+        "Question": "What is the name of Pittsburgh's soccer team?",
         "Answer": "Riverhounds",
         "Choice 1": "Steel FC",
         "Choice 2": "Pittsburgh United",
@@ -390,5 +390,26 @@
         "Choice 1": "Bethlehem Steel",
         "Choice 2": "Nucor Steel",
         "Choice 3": "US Steel"
+    }  
+    {
+        "Question": "What is the name of Pittsburgh's hockey stadium?",
+        "Answer": "PPG Paints Arena",
+        "Choice 1": "Consol",
+        "Choice 2": "PPG Paints Arena",
+        "Choice 3": "PNC Park"
+    },
+    {
+        "Question": "What is the University of Pittsburgh's motto?",
+        "Answer": "Veritas et Virtus (Truth and Virtue)",
+        "Choice 1": "Veritas et Virtus (Truth and Virtue)",
+        "Choice 2": "Hail to CMU",
+        "Choice 3": "Hail to the shrine"
+    },
+     {
+        "Question": "What famous slugger hit his last home run at Forbes Field in 1935?",
+        "Answer": "Babe Ruth",
+        "Choice 1": "Ty Cobb",
+        "Choice 2": "Stan Musial",
+        "Choice 3": "Babe Ruth"
     }
 ]
